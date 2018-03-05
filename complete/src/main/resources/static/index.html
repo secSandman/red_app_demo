@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ 
+ <title>Vulnerable Web App</title>
+ 
+    <title>Welcome</title>
+    <link href="css/bootstrap.min.css"
+        rel="stylesheet">
+<style>     
+        body {background-color: red;}
+</style>
+
+</head>
+
+<body>
+<br>
+<h1> Vulnerable Web App </h1>
+<br>
+
+if(unexpectedCondition) {
+  alert("Unexpected Condition");
+}
+
+console.log(password_entered); // Noncompliant
+
+var obj =  new Function("return " + data)(); 
+
+<br>
+<div class="jumbotron vertical-center" color="navy">
+<div class="container" color>
+  <form>
+    <div class="form-group row">
+      <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+      <div class="col-xs-4">
+        <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+      <div class="col-xs-4">
+        <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+      </div>
+    </div>
+    <div class="form-group row">
+      <div class="offset-xs-2 col-sm-10">
+        <button type="submit" class="btn btn-primary" onmouseover=alert('Injected!!')>Sign in</button>
+      </div>
+    </div>
+  </form>
+</div>
+</div>
+ 
+ 
+Made with <span style="color: #ffffff ;">&#9829;</span> and Gradle, Spring boot, Java 1.8, BootStrap, AWS CodeDeploy, AWS Cloud Formation and CodePipeline
+<span style="color: #ffffff ;">&#9829;</span> SecuritySandman
+ 
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
+    
+    
+</body>
+
+</html>
+
+
+

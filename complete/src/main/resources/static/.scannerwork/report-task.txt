@@ -1,0 +1,7 @@
+organization=secsandman-github
+projectKey=vuln-demo
+serverUrl=https://sonarcloud.io
+serverVersion=7.1.0.36868
+dashboardUrl=https://sonarcloud.io/dashboard/index/vuln-demo
+ceTaskId=AWH0sOOhvD4nwDDaIsyu
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWH0sOOhvD4nwDDaIsyu
