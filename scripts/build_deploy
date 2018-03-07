@@ -1,0 +1,4 @@
+#!/bin/bash
+cd /home/ec2-user/red_app_demo/complete/
+gradle build
+java -jar build/libs/red_app-0.1.0.jar

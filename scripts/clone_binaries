@@ -1,0 +1,4 @@
+#!/bin/bash
+git clone https://github.com/secSandman/red_app_demo.git /home/ec2-user/
+sudo chmod +x /home/ec2-user/red_app_demo/complete/src/main/java/hello/updateApp.sh
+sudo sh /home/ec2-user/red_app_demo/complete/src/main/java/hello/updateAppProp.sh
