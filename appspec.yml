@@ -11,7 +11,6 @@ hooks:
     - location: scripts/clone_binaries
       timeout: 300
       runas: root
-  ApplicationStop:
     - location: scripts/build_deploy
       timeout: 300
       runas: root
