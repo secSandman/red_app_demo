@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo yum update -y && install -y
-sudo yum remove jre-1.7.0
+sudo yum remove jre-1.7.0 -y
 sudo yum install java-1.8.0-openjdk-devel -y
 gradle_version=4.6
 sudo mkdir /home/ec2-user/opt/gradle
